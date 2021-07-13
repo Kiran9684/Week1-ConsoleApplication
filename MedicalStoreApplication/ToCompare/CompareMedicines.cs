@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MedicalStoreApplication.ToCompare
 {
-    class CompareMedicines : IComparer<Medicine>
+    class CompareMedicines : IComparer<Medicine> //Icomparer
     {
         public int Compare(Medicine x, Medicine y)
         {
